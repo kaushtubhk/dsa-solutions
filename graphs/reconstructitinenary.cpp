@@ -1,6 +1,6 @@
 class Solution {
 public:
-    unordered_map<string> , multiset<string>> adj ;
+    unordered_map<string , multiset<string>> adj ;
     vector<string> ans ;
     void dfs(string airport){
         while(!adj[airport].empty()){
